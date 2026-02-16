@@ -801,6 +801,7 @@ section {
 		width: 280px;
 		height: 280px;
 	}
+	/* something */
 
 	.hero-container {
 		flex-direction: column-reverse;

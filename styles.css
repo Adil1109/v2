@@ -734,6 +734,53 @@ section {
 	color: #ccc;
 }
 
+/* Contact Section */
+.contact-content {
+	max-width: 600px;
+	margin: 0 auto;
+	background: var(--glass-bg);
+	border: 1px solid var(--glass-border);
+	padding: 40px;
+	border-radius: 20px;
+	backdrop-filter: blur(10px);
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+	width: 100%;
+	padding: 15px;
+	background: rgba(255, 255, 255, 0.05);
+	border: 1px solid var(--glass-border);
+	border-radius: 10px;
+	color: #fff;
+	font-family: var(--font-body);
+	font-size: 1rem;
+	outline: none;
+	transition: all 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+	border-color: var(--primary-color);
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.form-group textarea {
+	resize: vertical;
+	min-height: 150px;
+}
+
+.contact-form button {
+	align-self: flex-start;
+	cursor: pointer;
+}
+
 /* Footer */
 .footer {
 	background: #050505;

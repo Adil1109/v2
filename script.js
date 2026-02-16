@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	// Scroll Reveal Animation
 	const revealElements = document.querySelectorAll(
-		'.about-content, .skill-category, .project-card, .timeline-item',
+		'.about-content, .skill-category, .project-card, .timeline-item, .contact-content',
 	);
 
 	const revealOnScroll = () => {
